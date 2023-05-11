@@ -1,0 +1,47 @@
+.App {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .search_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .movies {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .poster img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .info {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .vote {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f39c12;
+  }
+  
